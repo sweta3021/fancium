@@ -1,0 +1,203 @@
+/* ===== GENERAL ===== */
+
+body {
+    font-family: "Open Sans", arial, sans-serif, "lato";
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: thin 300;
+    color: #5a5a5a;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased !important;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+/* ===== Navigation Bar ===== */
+
+.navbar-custom {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 0;
+}
+
+.navbar-nav li a {
+    color: #2b3135;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.img-flag {
+    padding-top: 25px;
+}
+
+.img-flag img {
+    margin-right: 3px;
+    width: 25px;
+}
+
+.is-sticky {
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.sticky-wrapper {
+    height: 100px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+
+
+@media (min-width: 768px) {
+
+    .navbar-brand {
+        padding: 5px 5px;
+        width: 180px;
+    }
+    .navbar-nav>li>a {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-weight: ;
+        text-align: center;
+    }
+    .navbar-brand,
+    .navbar-nav>li>a {
+        -webkit-transition: all 0.4s ease-in-out 0s;
+        -moz-transition: all 0.4s ease-in-out 0s;
+        -ms-transition: all 0.4s ease-in-out 0s;
+        -o-transition: all 0.4s ease-in-out 0s;
+        transition: all 0.4s ease-in-out 0s;
+        text-transform: uppercase;
+    }
+    .is-sticky .navbar-brand {
+        padding: 10px 15px;
+        width: 130px;
+        position: relative;
+        top: -4.5px;
+    }
+    .is-sticky .navbar-nav>li>a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .nav>li>a:hover,
+    .navbar-nav>li.active>a {
+        background-color: transparent;
+    }
+    .nav>li>a:hover {
+        color: #000;
+        font-weight: bold;
+    }
+    .nav>li>a:focus {
+
+        background-color: transparent;
+    }
+    .is-sticky .navbar-custom {
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+    .is-sticky #service-list {
+        margin-top: -13px;
+    }
+    #service-list {
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-custom {
+        background-color: #fff;
+    }
+    .navbar-brand {
+        padding: 10px 15px;
+        width: 130px;
+        position: relative;
+        top: -4.5px;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #0000CD;
+    }
+    .navbar-header {
+        border-bottom: 1px solid #777;
+    }
+    .navbar-nav>li>a {
+        font-weight: ;
+        text-align: center;
+    }
+    .nav>li>a:hover,
+    .navbar-nav>li.active>a {
+        color: #e75c46;
+        background-color: transparent;
+        font-weight: bold;
+    }
+    .nav>li>a:focus {
+        color: #e75c46;
+        background-color: transparent;
+    }
+    .sticky-wrapper {
+        height: 50px;
+    }
+    .img-flag {
+        visibility: hidden;
+    }
+}
+
+
+/*==============login section==================*/
+
+.login-signup-heading {
+    position: relative;
+    /*right: -100px;*/
+    /*top: -50px;*/
+    text-align: center;
+}
+
+.login-signup-heading {
+    padding-bottom: 30px;
+}
+
+.login-signup-heading h1 {
+    color: #333;
+    /*font-family: opensanssemibold;*/
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.login-block {
+    border: 0px solid rgba(191, 213, 16, 1);
+}
+.login-block::before {
+    background-color: #ccc;
+    content: "";
+    display: inline-block;
+    height: 100%;
+    padding-right: 2px;
+    position: absolute;
+    right: -73px;
+    top: 0;
+}
+.login-register-page .form-control {
+    border: 0;
+    border-bottom: 2px solid #bababa;
+    border-radius: 0;
+    padding: 0;
+}
+
+.input-group .form-control {
+    color: #555;
+    font-size: 14px;
+    height: 40px;
+}
+
+.input-group .form-control {
+    z-index: 0;
+}
